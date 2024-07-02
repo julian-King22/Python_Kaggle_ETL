@@ -32,6 +32,7 @@ def extract_file(zip_file_path, download_dir):
         print("Failed to download the file.")
     finally:
         shutil.rmtree(f"{download_dir}")
+        print('done')
 
 
 if __name__ == "__main__":
